@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [tailwindcss(),
     react()
   ],
-  base: "/Datatactic/",
+  base: "/datatactic/",
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
   },
