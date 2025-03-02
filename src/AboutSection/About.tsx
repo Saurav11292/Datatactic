@@ -25,7 +25,7 @@ export default function About() {
                             transition={{ duration: 0.8, delay: i * 0.2 }}
                             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}>
                                 {Icon_anoutsec && <Icon_anoutsec className="text-3xl text-blue-200" />}
-                                <h3 className="mt-5 text-2xl font-semibold">{el.title}</h3>
+                                <p className="mt-5 text-2xl font-semibold">{el.title}</p>
                                 <p className="mt-5">{el.description}</p>
                             </motion.h3>
                         )
